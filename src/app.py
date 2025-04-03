@@ -23,9 +23,9 @@ def write_markdown():
     st.sidebar.success("Select page from above to access the different graph categories.")
     st.markdown(
         """
-    ## Dictionary Terms
+    ## Descriptives
 
-    This page displays each dictionary and the terms included.
+    This page displays some basic descriptive tables and graphs.
 
     """
     )
