@@ -4,7 +4,7 @@ import streamlit as st
 def set_page_configs():
     st.set_page_config(
         layout="wide",
-        page_title="Oil Companies Streamlit Page Descriptions",
+        page_title="Tesla Takedown Exploration Streamlit Page Descriptions",
         page_icon="👋",
         initial_sidebar_state="expanded",
     )
@@ -18,7 +18,7 @@ def set_page_configs():
 
 
 def write_markdown():
-    st.write("# Oil Companies Streamlit Home Page")
+    st.write("# Tesla Takedown Exploration Streamlit Home Page")
 
     st.sidebar.success("Select page from above to access the different graph categories.")
     st.markdown(
